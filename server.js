@@ -12,6 +12,7 @@ app.use(bodyParser.urlencoded({
 
 app.use('/api/eggs', require('./api/egg'));
 app.use('/api/characters', require('./api/character'));
+app.use('/api/stocks', require('./api/stock'));
 
 async function start() {
     try {
