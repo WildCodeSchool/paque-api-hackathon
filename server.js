@@ -10,6 +10,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use('/api/eggs', require('./api/egg'));
+app.use('/api/characters', require('./api/characters'));
 
 async function start() {
     try {
