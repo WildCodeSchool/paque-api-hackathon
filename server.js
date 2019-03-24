@@ -9,6 +9,8 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 
+app.use('/api/eggs', require('./api/egg'));
+
 async function start() {
     try {
         databaseInitialize();

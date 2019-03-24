@@ -22,10 +22,18 @@ function checkCollection(name) {
     }
 }
 
+function eggs() {
+    return db.getCollection('eggs');
+}
+
+function characters() {
+    return db.getCollection('characters');
+}
+
 // example method with any bootstrap logic to run after database initialized
 function runProgramLogic() {
     var entryCount = db.getCollection("entries").count();
     console.log("number of entries in database : " + entryCount);
 }
 
-module.exports = { db , databaseInitialize};
+module.exports = { db , databaseInitialize, eggs, characters};
