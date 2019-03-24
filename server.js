@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const log = require('./configuration/logger');
 const { NODE_PORT } = require('./configuration/environment');
 const { databaseInitialize } = require('./configuration/connection');
+var expressWs = require('express-ws')(app)
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
@@ -10,7 +11,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use('/api/eggs', require('./api/egg'));
-app.use('/api/characters', require('./api/characters'));
+app.use('/api/characters', require('./api/character'));
 
 async function start() {
     try {
