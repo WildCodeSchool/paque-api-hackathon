@@ -11,7 +11,7 @@ GET `/api/eggs`:
   {
     "id": "",
     "name": "",
-    "avatar: "",
+    "avatar": "",
   },
   {
     "id": "",
