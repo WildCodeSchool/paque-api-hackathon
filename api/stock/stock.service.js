@@ -1,26 +1,3 @@
-/* const priceStart = 2.5;
-const priceMax = 100;
-const cpt = 1;
-const step = 0.5;
-
-const increment = (price, amount) => {
-    // 5
-
-    const min = price - step;
-    const max = price + step;
-
-    const newValue = random(min, max);
-
-}
-
-const random = (min, max) => {
-    // const operator = Math.random() < 0.5 ? -1 : 1;
-    const operator = 1;
-    const value = (Math.random() * (+max - +min) + +min) * operator;
-
-    return value.toFixed(2);
-}
- */
 class Stock {
     constructor(priceMin, priceMax, step, amount, unit) {
         this.priceMin = priceMin;
@@ -34,7 +11,7 @@ class Stock {
         this.unit = unit;
     }
 
-    increment(price, amount) {
+    increment() {
         let min, max;
         if (this.cpt >= 10 && this.cpt <= 25) {
             this.step = this.backupStep;
