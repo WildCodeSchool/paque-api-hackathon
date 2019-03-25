@@ -18,8 +18,8 @@ async function start() {
     try {
         databaseInitialize();
         // Start the server
-        app.listen(NODE_PORT, () => {
-            log.debug(`Your server is listening on port ${NODE_PORT}`);
+        app.listen(process.env.PORT || NODE_PORT, () => {
+            log.debug(`Your server is listening on port ${process.env.PORT || NODE_PORT}`);
         });
     } catch (err) {
         log.error('while starting server', err);
