@@ -16,12 +16,12 @@ GET `/api/eggs`:
   {
     "id": "",
     "name": "",
-    "avatar: ""    
+    "avatar": ""    
   },
   {
     "id": "",
     "name": "",
-    "avatar: ""    
+    "avatar": ""    
   }
 ]
 ```
