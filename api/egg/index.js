@@ -7,15 +7,6 @@ router.get('', function(req, res) {
     res.status(200).json(eggs);
 });
 
-router.get('/:id', function(req, res) {
-    const egg = service.get(req.params.id);
-    if (egg) {
-        res.status(200).json(egg);
-    } else {
-        res.status(404).end();
-    }
-});
-
 router.get('/random', function(req, res) {
     const eggs = service.random();
     if (eggs) {
@@ -25,9 +16,28 @@ router.get('/random', function(req, res) {
     }
 });
 
+router.get('/:id', function(req, res) {
+    const egg = service.get(req.params.id);
+    if (egg) {
+        res.status(200).json(egg);
+    } else {
+        res.status(404).end();
+    }
+});
+
 router.post('', function(req, res) {
     const egg = service.save(req.body);
     res.status(201).json(egg);
+});
+
+router.put('/:id', function(req, res) {
+    const egg = service.update(req.params.id, req.body);
+    res.status(200).json(egg);
+});
+
+router.delete('/:id', function(req, res) {
+    const egg = service.remove(req.params.id);
+    res.status(204).json(egg);
 });
 
 module.exports = router;
