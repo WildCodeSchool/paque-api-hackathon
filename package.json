@@ -6,11 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "start:watch": "nodemon server.js"
+    "start:watch": "nodemon server.js",
+    "test:loading": "ls load-testing/*.yml | parallel -j 10 artillery run",
+    "test:loadingn:prod": "ls load-testing/*.yml | parallel -j 10 artillery run -e production"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "artillery": "^1.6.0-27",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "express-ws": "^4.0.0",

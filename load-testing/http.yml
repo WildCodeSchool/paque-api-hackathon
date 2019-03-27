@@ -1,0 +1,42 @@
+config:
+  target: "http://localhost:3000/api"
+  phases:
+    - duration: 1
+      arrivalCount: 1
+  environments:
+    production:
+      target: "https://easter-api.herokuapp.com/api"
+      phases:
+        - duration: 60
+          arrivalRate: 200    
+scenarios:
+  - flow:
+      - get:
+          url: "/eggs"
+          capture:
+            json: "$"
+            as: "eggs"
+      - loop:
+        - get:
+            url: "/eggs/{{ $loopElement.id.$oid }}"
+        over: eggs
+      - loop:
+        - get:
+            url: "/eggs/random"
+        over: eggs
+  - flow:
+      - get:
+          url: "/characters"
+          capture:
+            json: "$"
+            as: "characters"
+      - loop:
+        - get:
+            url: "/characters/{{ $loopElement.id.$oid }}"
+        over: characters
+      - loop:
+        - get:
+            url: "/characters/random"
+        over: characters
+
+          
