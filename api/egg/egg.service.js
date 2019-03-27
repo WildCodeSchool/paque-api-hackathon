@@ -20,7 +20,7 @@ function random() {
     const size = eggs().count();
     const skip = randomIndex(1, size);
 
-    const character = eggs().chaine().findOne().offset(skip);
+    const character = eggs().chain().find({}).offset(skip).limit(1).data()[0];
 
     return character;
 }

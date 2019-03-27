@@ -20,7 +20,7 @@ function random() {
     const size = characters().count();
     const skip = randomIndex(1, size);
 
-    const character = characters().chaine().findOne().offset(skip);
+    const character = characters().chain().find({}).offset(skip).limit(1).data()[0];;
 
     return character;
 }
