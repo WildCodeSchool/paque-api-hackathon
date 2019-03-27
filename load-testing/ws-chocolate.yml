@@ -1,0 +1,15 @@
+config:
+  target: "http://localhost:3000/api"
+  phases:
+    - duration: 1
+      arrivalCount: 1
+  environments:
+    production:
+      target: "https://easter-api.herokuapp.com/api"
+      phases:
+        - duration: 60
+          arrivalRate: 200    
+scenarios:
+  - engine: "ws"
+    flow:
+      - think: 60
