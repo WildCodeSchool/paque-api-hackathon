@@ -1,3 +1,8 @@
+const {
+    setInterval,
+    clearInterval
+} = require('timers')
+
 class Stock {
     constructor(priceMin, priceMax, step, amount, unit) {
         this.priceMin = priceMin;
@@ -9,6 +14,7 @@ class Stock {
         this.amount = amount;
         this.trend = 'flat';
         this.unit = unit;
+        this.clients = [];
     }
 
     increment() {
@@ -16,7 +22,7 @@ class Stock {
         if (this.cpt >= 10 && this.cpt <= 25) {
             this.step = this.backupStep;
             min = this.price;
-            max = this.price + this.step;  
+            max = this.price + this.step;
             this.trend = 'up';
         } else if (this.cpt >= 60 && this.cpt <= 80) {
             this.step = this.backupStep * 1.5;
@@ -37,7 +43,7 @@ class Stock {
 
         this.cpt++;
 
-        this.cpt = this.cpt === 100 ? 0: this.cpt;
+        this.cpt = this.cpt === 100 ? 0 : this.cpt;
 
         return {
             date: new Date().toISOString(),
@@ -46,14 +52,46 @@ class Stock {
             unit: this.unit,
             trend: this.trend,
             trades: Math.floor(this.random(10, 2500))
-        }    
+        }
     }
 
     random(min, max) {
-        // const operator = Math.random() < 0.5 ? -1 : 1;
         const value = Math.random() * (+max - +min) + +min;
 
         return value
+    }
+
+    startAutoIncrement(interval) {
+        if (this.intervalId) {
+            clearInterval(this.intervalId);
+            this.intervalId = undefined;
+        }
+
+        this.intervalId = setInterval(() => {
+            const increment = this.increment();
+            this.broadcast(increment);
+        }, interval);
+    }
+
+    addClient(ws) {
+        this.clients.push(ws);
+    }
+
+    broadcast(message) {
+        const toDelete = [];
+        for (let i = 0; i < this.clients.length; i++) {
+            const client = this.clients[i];
+
+            if (client.readyState === 1) {
+                client.send(JSON.stringify(message));
+                console.log(message)
+            } else if (client.readyState === 3) {
+                toDelete.push(i);
+            }
+        }
+        for (let i = 0; i < toDelete.length; i++) {
+            this.clients.splice(toDelete[i], 1);
+        }
     }
 }
 
