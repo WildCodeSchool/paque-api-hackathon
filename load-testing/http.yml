@@ -7,8 +7,8 @@ config:
     production:
       target: "https://easter-api.herokuapp.com/api"
       phases:
-        - duration: 60
-          arrivalRate: 200    
+        - duration: 10
+          arrivalCount: 200    
 scenarios:
   - flow:
       - get:

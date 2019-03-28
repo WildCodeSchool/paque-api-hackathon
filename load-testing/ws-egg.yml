@@ -8,7 +8,7 @@ config:
       target: "https://easter-api.herokuapp.com/api"
       phases:
         - duration: 60
-          arrivalRate: 200    
+          arrivalCount: 200    
 scenarios:
   - engine: "ws"
     flow:
