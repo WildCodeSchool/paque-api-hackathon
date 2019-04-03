@@ -65,6 +65,7 @@ GET `/api/characters/:id` or GET `/api/characters/random`:
     "firstName": "",
     "lastName": "",
     "species": "",
+    "gender": "",
     "height": "", 
     "weight": "",
     "age": "",
