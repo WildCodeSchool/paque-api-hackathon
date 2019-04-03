@@ -46,7 +46,7 @@ class Stock {
         this.cpt = this.cpt === 100 ? 0 : this.cpt;
 
         return {
-            date: new Date().toISOString(),
+            date: this.getDate(),
             price: this.price.toFixed(2),
             amount: this.amount,
             unit: this.unit,
@@ -92,6 +92,10 @@ class Stock {
         for (let i = 0; i < toDelete.length; i++) {
             this.clients.splice(toDelete[i], 1);
         }
+    }
+
+    getDate() {
+        return new Date().toISOString()
     }
 }
 
