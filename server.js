@@ -1,9 +1,14 @@
 const app = require('express')();
 const bodyParser = require('body-parser');
 const log = require('./configuration/logger');
-const { NODE_PORT } = require('./configuration/environment');
-const { databaseInitialize } = require('./configuration/connection');
-var expressWs = require('express-ws')(app)
+const {
+    NODE_PORT
+} = require('./configuration/environment');
+const {
+    databaseInitialize
+} = require('./configuration/connection');
+const expressWs = require('express-ws')(app)
+const path = require('path');
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
@@ -13,6 +18,11 @@ app.use(bodyParser.urlencoded({
 app.use('/api/eggs', require('./api/egg'));
 app.use('/api/characters', require('./api/character'));
 app.use('/api/stocks', require('./api/stock'));
+
+app.get('/api/db', (req, res) => {
+    var file = path.join(__dirname, '   db.json');
+    res.download(file);
+});
 
 async function start() {
     try {
