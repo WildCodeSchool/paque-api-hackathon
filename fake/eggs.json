@@ -1,0 +1,1001 @@
+[{
+    "id": "5cabbc6210c90f711a48ff95",
+    "name": "Egg of Magpie Black-billed",
+    "color": "#05757c",
+    "caliber": "S",
+    "farming": 2,
+    "country": "HN",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "decrease magical proctection:3"
+}, {
+    "id": "5cabbc6210c90f711a48ff96",
+    "name": "Egg of Mackerel Spanish",
+    "color": "#461363",
+    "caliber": "3XL",
+    "farming": 3,
+    "country": "ES",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "increase magical proctection:1"
+}, {
+    "id": "5cabbc6210c90f711a48ff97",
+    "name": "Egg of Frog leopard",
+    "color": "#664f14",
+    "caliber": "3XL",
+    "farming": 3,
+    "country": "GW",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "increase health:9"
+}, {
+    "id": "5cabbc6210c90f711a48ff98",
+    "name": "Egg of Hellbender",
+    "color": "#777504",
+    "caliber": "XS",
+    "farming": 1,
+    "country": "TF",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "increase magical proctection:5"
+}, {
+    "id": "5cabbc6210c90f711a48ff99",
+    "name": "Egg of Pike Northern",
+    "color": "#30376d",
+    "caliber": "XS",
+    "farming": 1,
+    "country": "CR",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "increase attack speed:4"
+}, {
+    "id": "5cabbc6210c90f711a48ff9a",
+    "name": "Egg of Magpie Black-billed",
+    "color": "#67702f",
+    "caliber": "XL",
+    "farming": 2,
+    "country": "TO",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "increase physical proctection:8"
+}, {
+    "id": "5cabbc6210c90f711a48ff9b",
+    "name": "Egg of Bullhead Brown",
+    "color": "#01427b",
+    "caliber": "M",
+    "farming": 3,
+    "country": "PK",
+    "rarity": "ascended",
+    "avatar": "",
+    "power": "increase physical power:5"
+}, {
+    "id": "5cabbc6210c90f711a48ff9c",
+    "name": "Egg of Bass Rock",
+    "color": "#332e7e",
+    "caliber": "XL",
+    "farming": 0,
+    "country": "BQ",
+    "rarity": "junk",
+    "avatar": "",
+    "power": "decrease movement speed:3"
+}, {
+    "id": "5cabbc6210c90f711a48ff9d",
+    "name": "Egg of Pike Northern",
+    "color": "#7d546c",
+    "caliber": "L",
+    "farming": 3,
+    "country": "CG",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "decrease magical proctection:5"
+}, {
+    "id": "5cabbc6210c90f711a48ff9e",
+    "name": "Egg of Goldfish",
+    "color": "#3b5e2b",
+    "caliber": "2XL",
+    "farming": 1,
+    "country": "CG",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "increase attack speed:8"
+}, {
+    "id": "5cabbc6210c90f711a48ff9f",
+    "name": "Egg of Toad American",
+    "color": "#80355c",
+    "caliber": "XS",
+    "farming": 1,
+    "country": "CL",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "decrease magical proctection:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffa0",
+    "name": "Egg of Sturgeon Atlantic",
+    "color": "#591a3b",
+    "caliber": "XL",
+    "farming": 1,
+    "country": "MU",
+    "rarity": "ascended",
+    "avatar": "",
+    "power": "decrease movement speed:7"
+}, {
+    "id": "5cabbc6210c90f711a48ffa1",
+    "name": "Egg of Tuna",
+    "color": "#2d4040",
+    "caliber": "M",
+    "farming": 0,
+    "country": "MH",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "increase health:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffa2",
+    "name": "Egg of Trout Rainbow",
+    "color": "#4f5b4e",
+    "caliber": "XS",
+    "farming": 0,
+    "country": "ES",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "increase magical proctection:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffa3",
+    "name": "Egg of Fighting Fish Siamese",
+    "color": "#6e0945",
+    "caliber": "M",
+    "farming": 3,
+    "country": "IO",
+    "rarity": "fine",
+    "avatar": "",
+    "power": "increase health:7"
+}, {
+    "id": "5cabbc6210c90f711a48ffa4",
+    "name": "Egg of Frog Bull",
+    "color": "#205258",
+    "caliber": "S",
+    "farming": 2,
+    "country": "CH",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "decrease physical power:7"
+}, {
+    "id": "5cabbc6210c90f711a48ffa5",
+    "name": "Egg of Kiwi",
+    "color": "#7d4d29",
+    "caliber": "2XL",
+    "farming": 2,
+    "country": "NG",
+    "rarity": "fine",
+    "avatar": "",
+    "power": "increase magical power:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffa6",
+    "name": "Egg of Alligator American",
+    "color": "#796516",
+    "caliber": "XS",
+    "farming": 1,
+    "country": "MQ",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "increase health:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffa7",
+    "name": "Egg of Ostrich",
+    "color": "#2a666c",
+    "caliber": "3XL",
+    "farming": 2,
+    "country": "LB",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "decrease magical power:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffa8",
+    "name": "Egg of Tuna",
+    "color": "#07177e",
+    "caliber": "XL",
+    "farming": 2,
+    "country": "JP",
+    "rarity": "masterwork",
+    "avatar": "",
+    "power": "decrease physical proctection:8"
+}, {
+    "id": "5cabbc6210c90f711a48ffa9",
+    "name": "Egg of Trout brown",
+    "color": "#074953",
+    "caliber": "3XL",
+    "farming": 2,
+    "country": "HN",
+    "rarity": "masterwork",
+    "avatar": "",
+    "power": "increase physical power:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffaa",
+    "name": "Egg of Duck Mallard",
+    "color": "#136169",
+    "caliber": "M",
+    "farming": 1,
+    "country": "HM",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "decrease physical power:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffab",
+    "name": "Egg of Magpie Black-billed",
+    "color": "#195e00",
+    "caliber": "S",
+    "farming": 2,
+    "country": "IO",
+    "rarity": "masterwork",
+    "avatar": "",
+    "power": "decrease physical proctection:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffac",
+    "name": "Egg of Bullhead Brown",
+    "color": "#4a6914",
+    "caliber": "XL",
+    "farming": 2,
+    "country": "US",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "increase physical proctection:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffad",
+    "name": "Egg of Herring Atlantic",
+    "color": "#315b07",
+    "caliber": "XS",
+    "farming": 0,
+    "country": "AF",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "decrease health:4"
+}, {
+    "id": "5cabbc6210c90f711a48ffae",
+    "name": "Egg of Gar longnose",
+    "color": "#01594c",
+    "caliber": "S",
+    "farming": 2,
+    "country": "GG",
+    "rarity": "junk",
+    "avatar": "",
+    "power": "increase magical power:7"
+}, {
+    "id": "5cabbc6210c90f711a48ffaf",
+    "name": "Egg of Swordtail Mexican",
+    "color": "#553b5e",
+    "caliber": "3XL",
+    "farming": 3,
+    "country": "GM",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "increase magical power:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffb0",
+    "name": "Egg of Tuna",
+    "color": "#481e75",
+    "caliber": "2XL",
+    "farming": 3,
+    "country": "GF",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "decrease movement speed:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffb1",
+    "name": "Egg of Eel American",
+    "color": "#56210a",
+    "caliber": "S",
+    "farming": 1,
+    "country": "RO",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "increase magical power:3"
+}, {
+    "id": "5cabbc6210c90f711a48ffb2",
+    "name": "Egg of Haddock",
+    "color": "#415773",
+    "caliber": "3XL",
+    "farming": 3,
+    "country": "GA",
+    "rarity": "ascended",
+    "avatar": "",
+    "power": "decrease magical power:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffb3",
+    "name": "Egg of Stickleback three spine",
+    "color": "#5d4f38",
+    "caliber": "XS",
+    "farming": 0,
+    "country": "ML",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "decrease physical power:8"
+}, {
+    "id": "5cabbc6210c90f711a48ffb4",
+    "name": "Egg of Carp",
+    "color": "#334d5d",
+    "caliber": "3XL",
+    "farming": 1,
+    "country": "NC",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "increase health:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffb5",
+    "name": "Egg of Duck Wood",
+    "color": "#583e0f",
+    "caliber": "M",
+    "farming": 0,
+    "country": "RU",
+    "rarity": "junk",
+    "avatar": "",
+    "power": "increase magical proctection:5"
+}, {
+    "id": "5cabbc6210c90f711a48ffb6",
+    "name": "Egg of Mackerel Spanish",
+    "color": "#7c6a3b",
+    "caliber": "2XL",
+    "farming": 1,
+    "country": "GY",
+    "rarity": "junk",
+    "avatar": "",
+    "power": "decrease movement speed:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffb7",
+    "name": "Egg of Cod Atlantic",
+    "color": "#055e6e",
+    "caliber": "XS",
+    "farming": 0,
+    "country": "CN",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "decrease health:3"
+}, {
+    "id": "5cabbc6210c90f711a48ffb8",
+    "name": "Egg of Tuna",
+    "color": "#54230f",
+    "caliber": "XS",
+    "farming": 2,
+    "country": "CN",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "increase magical proctection:8"
+}, {
+    "id": "5cabbc6210c90f711a48ffb9",
+    "name": "Egg of Swordtail Mexican",
+    "color": "#446561",
+    "caliber": "3XL",
+    "farming": 2,
+    "country": "AT",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "increase physical proctection:5"
+}, {
+    "id": "5cabbc6210c90f711a48ffba",
+    "name": "Egg of Frog Bull",
+    "color": "#4f6637",
+    "caliber": "M",
+    "farming": 0,
+    "country": "ST",
+    "rarity": "ascended",
+    "avatar": "",
+    "power": "increase movement speed:3"
+}, {
+    "id": "5cabbc6210c90f711a48ffbb",
+    "name": "Egg of Ostrich",
+    "color": "#240e49",
+    "caliber": "2XL",
+    "farming": 0,
+    "country": "PE",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "decrease magical proctection:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffbc",
+    "name": "Egg of Trout Rainbow",
+    "color": "#025780",
+    "caliber": "S",
+    "farming": 3,
+    "country": "KN",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "decrease magical proctection:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffbd",
+    "name": "Egg of Frog leopard",
+    "color": "#7a1763",
+    "caliber": "2XL",
+    "farming": 0,
+    "country": "TK",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "decrease magical proctection:3"
+}, {
+    "id": "5cabbc6210c90f711a48ffbe",
+    "name": "Egg of Trout brown",
+    "color": "#6d2a5e",
+    "caliber": "M",
+    "farming": 1,
+    "country": "DE",
+    "rarity": "fine",
+    "avatar": "",
+    "power": "increase movement speed:9"
+}, {
+    "id": "5cabbc6210c90f711a48ffbf",
+    "name": "Egg of Flounder Winter",
+    "color": "#6f0416",
+    "caliber": "XL",
+    "farming": 1,
+    "country": "ME",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "decrease attack speed:9"
+}, {
+    "id": "5cabbc6210c90f711a48ffc0",
+    "name": "Egg of Kiwi",
+    "color": "#435749",
+    "caliber": "XS",
+    "farming": 1,
+    "country": "MU",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "increase movement speed:7"
+}, {
+    "id": "5cabbc6210c90f711a48ffc1",
+    "name": "Egg of Herring Atlantic",
+    "color": "#656356",
+    "caliber": "M",
+    "farming": 3,
+    "country": "AL",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "decrease physical proctection:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffc2",
+    "name": "Egg of Eel American",
+    "color": "#733a5d",
+    "caliber": "XS",
+    "farming": 3,
+    "country": "KY",
+    "rarity": "masterwork",
+    "avatar": "",
+    "power": "decrease magical power:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffc3",
+    "name": "Egg of Eel American",
+    "color": "#36562a",
+    "caliber": "S",
+    "farming": 0,
+    "country": "BZ",
+    "rarity": "masterwork",
+    "avatar": "",
+    "power": "decrease health:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffc4",
+    "name": "Egg of Pike Northern",
+    "color": "#1d0f63",
+    "caliber": "S",
+    "farming": 2,
+    "country": "AU",
+    "rarity": "fine",
+    "avatar": "",
+    "power": "decrease attack speed:5"
+}, {
+    "id": "5cabbc6210c90f711a48ffc5",
+    "name": "Egg of Magpie Black-billed",
+    "color": "#144c0f",
+    "caliber": "XS",
+    "farming": 2,
+    "country": "GG",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "increase attack speed:4"
+}, {
+    "id": "5cabbc6210c90f711a48ffc6",
+    "name": "Egg of Duck Mallard",
+    "color": "#263179",
+    "caliber": "2XL",
+    "farming": 0,
+    "country": "BF",
+    "rarity": "ascended",
+    "avatar": "",
+    "power": "increase attack speed:9"
+}, {
+    "id": "5cabbc6210c90f711a48ffc7",
+    "name": "Egg of Gila Monster",
+    "color": "#0e5b16",
+    "caliber": "M",
+    "farming": 3,
+    "country": "SJ",
+    "rarity": "junk",
+    "avatar": "",
+    "power": "increase attack speed:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffc8",
+    "name": "Egg of Duck Wood",
+    "color": "#77767d",
+    "caliber": "2XL",
+    "farming": 3,
+    "country": "GU",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "decrease health:4"
+}, {
+    "id": "5cabbc6210c90f711a48ffc9",
+    "name": "Egg of Cobra Indian",
+    "color": "#28402f",
+    "caliber": "L",
+    "farming": 3,
+    "country": "WF",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "decrease attack speed:8"
+}, {
+    "id": "5cabbc6210c90f711a48ffca",
+    "name": "Egg of Gull Herring",
+    "color": "#5f0d79",
+    "caliber": "3XL",
+    "farming": 1,
+    "country": "BE",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "increase physical power:8"
+}, {
+    "id": "5cabbc6210c90f711a48ffcb",
+    "name": "Egg of Pike Northern",
+    "color": "#675174",
+    "caliber": "2XL",
+    "farming": 1,
+    "country": "VN",
+    "rarity": "fine",
+    "avatar": "",
+    "power": "decrease physical power:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffcc",
+    "name": "Egg of Guinea fowl",
+    "color": "#054670",
+    "caliber": "XS",
+    "farming": 0,
+    "country": "KR",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "increase attack speed:3"
+}, {
+    "id": "5cabbc6210c90f711a48ffcd",
+    "name": "Egg of Salmon Chum",
+    "color": "#0b5101",
+    "caliber": "2XL",
+    "farming": 1,
+    "country": "GY",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "decrease movement speed:9"
+}, {
+    "id": "5cabbc6210c90f711a48ffce",
+    "name": "Egg of Flounder Winter",
+    "color": "#463633",
+    "caliber": "3XL",
+    "farming": 1,
+    "country": "JO",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "increase health:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffcf",
+    "name": "Egg of Trout brown",
+    "color": "#561765",
+    "caliber": "M",
+    "farming": 3,
+    "country": "BD",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "decrease health:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffd0",
+    "name": "Egg of Alligator American",
+    "color": "#605247",
+    "caliber": "2XL",
+    "farming": 2,
+    "country": "EG",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "increase magical proctection:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffd1",
+    "name": "Egg of Trout Rainbow",
+    "color": "#505c46",
+    "caliber": "M",
+    "farming": 2,
+    "country": "TZ",
+    "rarity": "fine",
+    "avatar": "",
+    "power": "decrease health:4"
+}, {
+    "id": "5cabbc6210c90f711a48ffd2",
+    "name": "Egg of Herring Atlantic",
+    "color": "#22286e",
+    "caliber": "L",
+    "farming": 2,
+    "country": "NR",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "decrease physical power:3"
+}, {
+    "id": "5cabbc6210c90f711a48ffd3",
+    "name": "Egg of Eel American",
+    "color": "#2f571b",
+    "caliber": "M",
+    "farming": 3,
+    "country": "LV",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "increase movement speed:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffd4",
+    "name": "Egg of Mackerel Spanish",
+    "color": "#314313",
+    "caliber": "L",
+    "farming": 1,
+    "country": "GE",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "increase attack speed:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffd5",
+    "name": "Egg of Fighting Fish Siamese",
+    "color": "#744960",
+    "caliber": "M",
+    "farming": 1,
+    "country": "FO",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "decrease magical power:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffd6",
+    "name": "Egg of Pumpkinseed",
+    "color": "#473230",
+    "caliber": "M",
+    "farming": 0,
+    "country": "TG",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "increase physical proctection:1"
+}, {
+    "id": "5cabbc6210c90f711a48ffd7",
+    "name": "Egg of Flounder Winter",
+    "color": "#087b42",
+    "caliber": "3XL",
+    "farming": 2,
+    "country": "KY",
+    "rarity": "masterwork",
+    "avatar": "",
+    "power": "decrease attack speed:4"
+}, {
+    "id": "5cabbc6210c90f711a48ffd8",
+    "name": "Egg of Herring Atlantic",
+    "color": "#46391c",
+    "caliber": "XS",
+    "farming": 2,
+    "country": "EE",
+    "rarity": "masterwork",
+    "avatar": "",
+    "power": "decrease physical power:9"
+}, {
+    "id": "5cabbc6210c90f711a48ffd9",
+    "name": "Egg of Tuna",
+    "color": "#1e3d17",
+    "caliber": "XL",
+    "farming": 2,
+    "country": "LY",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "decrease health:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffda",
+    "name": "Egg of Haddock",
+    "color": "#134a68",
+    "caliber": "2XL",
+    "farming": 0,
+    "country": "EG",
+    "rarity": "junk",
+    "avatar": "",
+    "power": "decrease magical proctection:8"
+}, {
+    "id": "5cabbc6210c90f711a48ffdb",
+    "name": "Egg of Sturgeon Atlantic",
+    "color": "#0e390d",
+    "caliber": "M",
+    "farming": 0,
+    "country": "OM",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "decrease health:3"
+}, {
+    "id": "5cabbc6210c90f711a48ffdc",
+    "name": "Egg of Pumpkinseed",
+    "color": "#622c5d",
+    "caliber": "S",
+    "farming": 3,
+    "country": "MZ",
+    "rarity": "masterwork",
+    "avatar": "",
+    "power": "increase magical proctection:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffdd",
+    "name": "Egg of Gull Herring",
+    "color": "#7b5f07",
+    "caliber": "2XL",
+    "farming": 2,
+    "country": "NR",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "increase attack speed:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffde",
+    "name": "Egg of Haddock",
+    "color": "#605d7c",
+    "caliber": "S",
+    "farming": 0,
+    "country": "TJ",
+    "rarity": "fine",
+    "avatar": "",
+    "power": "increase magical power:8"
+}, {
+    "id": "5cabbc6210c90f711a48ffdf",
+    "name": "Egg of Trout brown",
+    "color": "#173171",
+    "caliber": "L",
+    "farming": 3,
+    "country": "MK",
+    "rarity": "fine",
+    "avatar": "",
+    "power": "increase health:7"
+}, {
+    "id": "5cabbc6210c90f711a48ffe0",
+    "name": "Egg of Carp",
+    "color": "#795c36",
+    "caliber": "XL",
+    "farming": 1,
+    "country": "BY",
+    "rarity": "masterwork",
+    "avatar": "",
+    "power": "decrease physical proctection:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffe1",
+    "name": "Egg of Pike Northern",
+    "color": "#5c642c",
+    "caliber": "XS",
+    "farming": 3,
+    "country": "BH",
+    "rarity": "ascended",
+    "avatar": "",
+    "power": "decrease physical proctection:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffe2",
+    "name": "Egg of Swordtail Mexican",
+    "color": "#667b66",
+    "caliber": "M",
+    "farming": 0,
+    "country": "AZ",
+    "rarity": "junk",
+    "avatar": "",
+    "power": "increase attack speed:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffe3",
+    "name": "Egg of Gila Monster",
+    "color": "#005405",
+    "caliber": "S",
+    "farming": 2,
+    "country": "NP",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "decrease attack speed:8"
+}, {
+    "id": "5cabbc6210c90f711a48ffe4",
+    "name": "Egg of Frog Bull",
+    "color": "#1c132f",
+    "caliber": "2XL",
+    "farming": 1,
+    "country": "BS",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "increase magical power:8"
+}, {
+    "id": "5cabbc6210c90f711a48ffe5",
+    "name": "Egg of Gar longnose",
+    "color": "#223d00",
+    "caliber": "3XL",
+    "farming": 1,
+    "country": "TM",
+    "rarity": "masterwork",
+    "avatar": "",
+    "power": "decrease magical proctection:3"
+}, {
+    "id": "5cabbc6210c90f711a48ffe6",
+    "name": "Egg of Perch",
+    "color": "#267252",
+    "caliber": "XS",
+    "farming": 0,
+    "country": "ST",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "increase attack speed:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffe7",
+    "name": "Egg of Pike Northern",
+    "color": "#080314",
+    "caliber": "XL",
+    "farming": 3,
+    "country": "ZA",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "decrease magical power:2"
+}, {
+    "id": "5cabbc6210c90f711a48ffe8",
+    "name": "Egg of Goldfish",
+    "color": "#5f0e06",
+    "caliber": "3XL",
+    "farming": 1,
+    "country": "TV",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "decrease magical power:3"
+}, {
+    "id": "5cabbc6210c90f711a48ffe9",
+    "name": "Egg of Pumpkinseed",
+    "color": "#73477c",
+    "caliber": "L",
+    "farming": 2,
+    "country": "BQ",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "decrease physical proctection:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffea",
+    "name": "Egg of Swordtail Mexican",
+    "color": "#02613e",
+    "caliber": "L",
+    "farming": 1,
+    "country": "PE",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "decrease magical power:9"
+}, {
+    "id": "5cabbc6210c90f711a48ffeb",
+    "name": "Egg of Perch",
+    "color": "#301036",
+    "caliber": "XS",
+    "farming": 2,
+    "country": "PE",
+    "rarity": "fine",
+    "avatar": "",
+    "power": "increase attack speed:7"
+}, {
+    "id": "5cabbc6210c90f711a48ffec",
+    "name": "Egg of Magpie Black-billed",
+    "color": "#5b1e70",
+    "caliber": "S",
+    "farming": 0,
+    "country": "GF",
+    "rarity": "masterwork",
+    "avatar": "",
+    "power": "increase magical power:9"
+}, {
+    "id": "5cabbc6210c90f711a48ffed",
+    "name": "Egg of Magpie Black-billed",
+    "color": "#792562",
+    "caliber": "XS",
+    "farming": 3,
+    "country": "JO",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "increase magical proctection:9"
+}, {
+    "id": "5cabbc6210c90f711a48ffee",
+    "name": "Egg of Trout brown",
+    "color": "#074367",
+    "caliber": "XL",
+    "farming": 0,
+    "country": "BT",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "decrease magical proctection:6"
+}, {
+    "id": "5cabbc6210c90f711a48ffef",
+    "name": "Egg of Guinea fowl",
+    "color": "#4f6a76",
+    "caliber": "S",
+    "farming": 1,
+    "country": "LU",
+    "rarity": "ascended",
+    "avatar": "",
+    "power": "decrease health:1"
+}, {
+    "id": "5cabbc6210c90f711a48fff0",
+    "name": "Egg of Duck Mallard",
+    "color": "#4a3f7d",
+    "caliber": "XS",
+    "farming": 2,
+    "country": "GE",
+    "rarity": "exotic",
+    "avatar": "",
+    "power": "increase movement speed:8"
+}, {
+    "id": "5cabbc6210c90f711a48fff1",
+    "name": "Egg of Sea lamprey",
+    "color": "#012e1f",
+    "caliber": "3XL",
+    "farming": 1,
+    "country": "NU",
+    "rarity": "ascended",
+    "avatar": "",
+    "power": "decrease attack speed:7"
+}, {
+    "id": "5cabbc6210c90f711a48fff2",
+    "name": "Egg of Hellbender",
+    "color": "#7c795a",
+    "caliber": "XL",
+    "farming": 1,
+    "country": "BH",
+    "rarity": "basic",
+    "avatar": "",
+    "power": "increase physical power:3"
+}, {
+    "id": "5cabbc6210c90f711a48fff3",
+    "name": "Egg of Frog leopard",
+    "color": "#4d0604",
+    "caliber": "XL",
+    "farming": 2,
+    "country": "RU",
+    "rarity": "junk",
+    "avatar": "",
+    "power": "decrease physical proctection:7"
+}, {
+    "id": "5cabbc6210c90f711a48fff4",
+    "name": "Egg of Goldfish",
+    "color": "#1b377e",
+    "caliber": "2XL",
+    "farming": 3,
+    "country": "CC",
+    "rarity": "legendary",
+    "avatar": "",
+    "power": "decrease magical power:6"
+}, {
+    "id": "5cabbc6210c90f711a48fff5",
+    "name": "Egg of Carp",
+    "color": "#255c00",
+    "caliber": "XS",
+    "farming": 0,
+    "country": "SE",
+    "rarity": "rare",
+    "avatar": "",
+    "power": "decrease movement speed:4"
+}, {
+    "id": "5cabbc6210c90f711a48fff6",
+    "name": "Egg of Mackerel Spanish",
+    "color": "#625915",
+    "caliber": "L",
+    "farming": 2,
+    "country": "CK",
+    "rarity": "junk",
+    "avatar": "",
+    "power": "increase attack speed:4"
+}, {
+    "id": "5cabbc6210c90f711a48fff7",
+    "name": "Egg of Carp",
+    "color": "#3e6f5f",
+    "caliber": "S",
+    "farming": 3,
+    "country": "CA",
+    "rarity": "ascended",
+    "avatar": "",
+    "power": "increase physical proctection:9"
+}, {
+    "id": "5cabbc6210c90f711a48fff8",
+    "name": "Egg of Gull Herring",
+    "color": "#0f6466",
+    "caliber": "3XL",
+    "farming": 0,
+    "country": "BD",
+    "rarity": "junk",
+    "avatar": "",
+    "power": "decrease physical power:1"
+}]

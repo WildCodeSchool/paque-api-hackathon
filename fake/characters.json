@@ -1,0 +1,473 @@
+[{
+    "name": "Rick Sanchez",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+    "skills": ["resurrection:8", "dexterity:3", "fly:7"],
+    "id": "5cabbc6210c90f711a48fff9"
+}, {
+    "name": "Rogger Rabbit",
+    "species": "Rabbit toon",
+    "gender": "Male",
+    "origin": "Toons City",
+    "image": "https://i.pinimg.com/originals/4d/f1/6f/4df16f2a2102cb1e39d2f2531e3b7881.jpg",
+    "skills": ["pass through walls:5", "pass through walls:3", "dexterity:8"],
+    "id": "5cabbc6210c90f711a48fffa"
+}, {
+    "name": "Morty Smith",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
+    "skills": ["mental control:1", "fly:3", "invisibility:7"],
+    "id": "5cabbc6210c90f711a48fffb"
+}, {
+    "name": "Darth Vader",
+    "species": "Human/Cyborg",
+    "gender": "Male",
+    "origin": "Tatooine",
+    "image": "https://static.comicvine.com/uploads/scale_small/13/132327/6438864-dc94c42f-acac-44ff-8804-85a37f06262d.jpeg",
+    "skills": ["dexterity:8", "invisibility:9", "hight speed:3"],
+    "id": "5cabbc6210c90f711a48fffc"
+}, {
+    "name": "Summer Smith",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+    "skills": ["hight speed:7", "mental control:9", "mental control:5"],
+    "id": "5cabbc6210c90f711a48fffd"
+}, {
+    "name": "Ellen Ripley",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Earth",
+    "image": "https://static.comicvine.com/uploads/scale_small/0/77/385922-3756-ellen-ripley.jpg",
+    "skills": ["resurrection:5", "fly:4", "resurrection:8"],
+    "id": "5cabbc6210c90f711a48fffe"
+}, {
+    "name": "Beth Smith",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+    "skills": ["hight strength:7", "dexterity:8", "pass through walls:7"],
+    "id": "5cabbc6210c90f711a48ffff"
+}, {
+    "name": "Jerry Smith",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg",
+    "skills": ["dexterity:1", "fly:3", "mental control:8"],
+    "id": "5cabbc6210c90f711a490000"
+}, {
+    "name": "Mystique",
+    "species": "Human Mutant",
+    "gender": "Female",
+    "origin": "Earth",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Mystique11.png/250px-Mystique11.png",
+    "skills": ["dexterity:6", "invisibility:7", "hight strength:1"],
+    "id": "5cabbc6210c90f711a490001"
+}, {
+    "name": "Abadango Cluster Princess",
+    "species": "Alien",
+    "gender": "Female",
+    "origin": {
+        "id": "2",
+        "name": "Abadango",
+        "type": "Cluster"
+    },
+    "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg",
+    "skills": ["resurrection:2", "mental control:4", "hight strength:1"],
+    "id": "5cabbc6210c90f711a490002"
+}, {
+    "name": "Abradolf Lincler",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
+    "skills": ["dexterity:7", "magnetic control:1", "resurrection:2"],
+    "id": "5cabbc6210c90f711a490003"
+}, {
+    "name": "Adjudicator Rick",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
+    "skills": ["magnetic control:7", "fly:7", "dexterity:5"],
+    "id": "5cabbc6210c90f711a490004"
+}, {
+    "name": "Hellboy",
+    "species": "Demon",
+    "gender": "Male",
+    "origin": "Hell",
+    "image": "https://static.comicvine.com/uploads/scale_small/3/31666/5612601-hbyws17-fc-fnlc.jpg",
+    "skills": ["Xray vision:2", "Xray vision:4", "magnetic control:7"],
+    "id": "5cabbc6210c90f711a490005"
+}, {
+    "name": "Agency Director",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/9.jpeg",
+    "skills": ["pass through walls:4", "dexterity:8", "mental control:2"],
+    "id": "5cabbc6210c90f711a490006"
+}, {
+    "name": "Alan Rails",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/10.jpeg",
+    "skills": ["Xray vision:2", "mental control:2", "invisibility:7"],
+    "id": "5cabbc6210c90f711a490007"
+}, {
+    "name": "Albert Einstein",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/11.jpeg",
+    "skills": ["magnetic control:6", "invisibility:9", "hight strength:7"],
+    "id": "5cabbc6210c90f711a490008"
+}, {
+    "name": "Supergirl (Kara Zor-El)",
+    "species": "Kryptonian",
+    "gender": "Female",
+    "origin": "Krypton",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Supergirl_%28Kara_Zor-El%29_-DC_Rebirth_version-.jpg/250px-Supergirl_%28Kara_Zor-El%29_-DC_Rebirth_version-.jpg",
+    "skills": ["mental control:4", "Xray vision:5", "resurrection:1"],
+    "id": "5cabbc6210c90f711a490009"
+}, {
+    "name": "Alexander",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/12.jpeg",
+    "skills": ["mental control:9", "dexterity:3", "fly:6"],
+    "id": "5cabbc6210c90f711a49000a"
+}, {
+    "name": "Alien Googah",
+    "species": "Alien",
+    "gender": "unknown",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/13.jpeg",
+    "skills": ["fly:9", "Xray vision:2", "invisibility:7"],
+    "id": "5cabbc6210c90f711a49000b"
+}, {
+    "name": "Alien Morty",
+    "species": "Alien",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/14.jpeg",
+    "skills": ["hight speed:5", "invisibility:1", "invisibility:9"],
+    "id": "5cabbc6210c90f711a49000c"
+}, {
+    "name": "Alien Rick",
+    "species": "Alien",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/15.jpeg",
+    "skills": ["pass through walls:9", "mental control:2", "resurrection:7"],
+    "id": "5cabbc6210c90f711a49000d"
+}, {
+    "name": "Elektra Natchios",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Earth",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Elektra_3.jpg/250px-Elektra_3.jpg",
+    "skills": ["hight strength:6", "invisibility:3", "magnetic control:2"],
+    "id": "5cabbc6210c90f711a49000e"
+}, {
+    "name": "Amish Cyborg",
+    "species": "Alien",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/16.jpeg",
+    "skills": ["fly:1", "fly:2", "Xray vision:4"],
+    "id": "5cabbc6210c90f711a49000f"
+}, {
+    "name": "Annie",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/17.jpeg",
+    "skills": ["magnetic control:5", "fly:9", "invisibility:2"],
+    "id": "5cabbc6210c90f711a490010"
+}, {
+    "name": "Judge Dredd",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Mega-City One",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/91P9Csqk5RL.jpg",
+    "skills": ["magnetic control:2", "dexterity:6", "hight speed:1"],
+    "id": "5cabbc6210c90f711a490011"
+}, {
+    "name": "Antenna Morty",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg",
+    "skills": ["invisibility:1", "resurrection:1", "fly:1"],
+    "id": "5cabbc6210c90f711a490012"
+}, {
+    "name": "Antenna Rick",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/19.jpeg",
+    "skills": ["invisibility:8", "fly:3", "fly:7"],
+    "id": "5cabbc6210c90f711a490013"
+}, {
+    "name": "Catwoman",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Earth",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Catwoman_%28DC_Rebirth_version%29.jpg/250px-Catwoman_%28DC_Rebirth_version%29.jpg",
+    "skills": ["fly:4", "pass through walls:8", "mental control:8"],
+    "id": "5cabbc6210c90f711a490014"
+}, {
+    "name": "Ants in my Eyes Johnson",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/20.jpeg",
+    "skills": ["pass through walls:6", "hight strength:1", "magnetic control:4"],
+    "id": "5cabbc6210c90f711a490015"
+}, {
+    "name": "Crocubot",
+    "species": "Humanoid",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/81.jpeg",
+    "skills": ["pass through walls:9", "invisibility:1", "mental control:8"],
+    "id": "5cabbc6210c90f711a490016"
+}, {
+    "name": "Jessica Rabbit",
+    "species": "Human toon",
+    "gender": "Female",
+    "origin": "Toons City",
+    "image": "https://banner2.kisspng.com/20180612/le/kisspng-jessica-rabbit-roger-rabbit-fan-art-clip-art-jessica-rabbit-5b2033dc0f8b46.6307732315288370840637.jpg",
+    "skills": ["fly:7", "Xray vision:7", "hight speed:1"],
+    "id": "5cabbc6210c90f711a490017"
+}, {
+    "name": "Cronenberg Rick",
+    "species": "Cronenberg",
+    "gender": "Male",
+    "origin": "Cronenberg Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/82.jpeg",
+    "skills": ["pass through walls:7", "dexterity:2", "mental control:8"],
+    "id": "5cabbc6210c90f711a490018"
+}, {
+    "name": "Cronenberg Morty",
+    "species": "Cronenberg",
+    "gender": "Male",
+    "origin": "Cronenberg Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/83.jpeg",
+    "skills": ["hight speed:5", "pass through walls:3", "fly:3"],
+    "id": "5cabbc6210c90f711a490019"
+}, {
+    "name": "Barbara Gordon",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Earth",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Barbara_Gordon_Batgirl_Vol_5_4.png/250px-Barbara_Gordon_Batgirl_Vol_5_4.png",
+    "skills": ["hight strength:3", "dexterity:8", "invisibility:3"],
+    "id": "5cabbc6210c90f711a49001a"
+}, {
+    "name": "Cult Leader Morty",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/84.jpeg",
+    "skills": ["pass through walls:1", "invisibility:5", "hight speed:5"],
+    "id": "5cabbc6210c90f711a49001b"
+}, {
+    "name": "Cyclops Morty",
+    "species": "Humanoid",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/85.jpeg",
+    "skills": ["resurrection:6", "resurrection:7", "invisibility:9"],
+    "id": "5cabbc6210c90f711a49001c"
+}, {
+    "name": "Cyclops Rick",
+    "species": "Humanoid",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/86.jpeg",
+    "skills": ["mental control:6", "fly:7", "invisibility:1"],
+    "id": "5cabbc6210c90f711a49001d"
+}, {
+    "name": "Cynthia",
+    "species": "Alien",
+    "gender": "Female",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/87.jpeg",
+    "skills": ["mental control:4", "fly:7", "fly:8"],
+    "id": "5cabbc6210c90f711a49001e"
+}, {
+    "name": "Cynthia",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/88.jpeg",
+    "skills": ["magnetic control:2", "hight speed:6", "pass through walls:5"],
+    "id": "5cabbc6210c90f711a49001f"
+}, {
+    "name": "Dana Scully",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Earth",
+    "image": "https://static.comicvine.com/uploads/scale_small/11126/111269625/6397592-star_wars_44_textless.jpg",
+    "skills": ["Xray vision:2", "resurrection:9", "invisibility:2"],
+    "id": "5cabbc6210c90f711a490020"
+}, {
+    "name": "Dale",
+    "species": "Humanoid",
+    "gender": "Male",
+    "origin": "Giant's Town",
+    "image": "https://rickandmortyapi.com/api/character/avatar/89.jpeg",
+    "skills": ["mental control:7", "hight strength:9", "hight strength:1"],
+    "id": "5cabbc6210c90f711a490021"
+}, {
+    "name": "Daron Jefferson",
+    "species": "Alien",
+    "gender": "Male",
+    "origin": "Unity's Planet",
+    "image": "https://rickandmortyapi.com/api/character/avatar/90.jpeg",
+    "skills": ["pass through walls:5", "hight speed:2", "hight strength:6"],
+    "id": "5cabbc6210c90f711a490022"
+}, {
+    "name": "David Letterman",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/91.jpeg",
+    "skills": ["fly:1", "resurrection:5", "fly:9"],
+    "id": "5cabbc6210c90f711a490023"
+}, {
+    "name": "Davin",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Earth",
+    "image": "https://rickandmortyapi.com/api/character/avatar/92.jpeg",
+    "skills": ["magnetic control:6", "pass through walls:4", "fly:6"],
+    "id": "5cabbc6210c90f711a490024"
+}, {
+    "name": "Diablo Verde",
+    "species": "Humanoid",
+    "gender": "Male",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/93.jpeg",
+    "skills": ["hight speed:2", "pass through walls:7", "magnetic control:4"],
+    "id": "5cabbc6210c90f711a490025"
+}, {
+    "name": "Cersei Baratheon",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Castral Roc",
+    "image": "https://vignette.wikia.nocookie.net/game-of-thrones-le-trone-de-fer/images/b/b0/Cersei_Lannister.png/revision/latest/scale-to-width-down/350?cb=20170905153525&path-prefix=fr",
+    "skills": ["fly:1", "pass through walls:1", "magnetic control:4"],
+    "id": "5cabbc6210c90f711a490026"
+}, {
+    "name": "Diane Sanchez",
+    "species": "Human",
+    "gender": "Female",
+    "origin": {
+        "id": "30",
+        "name": "Earth (Unknown dimension)",
+        "type": "Planet"
+    },
+    "image": "https://rickandmortyapi.com/api/character/avatar/94.jpeg",
+    "skills": ["mental control:8", "hight strength:4", "pass through walls:9"],
+    "id": "5cabbc6210c90f711a490027"
+}, {
+    "name": "Dipper and Mabel Mortys",
+    "species": "Human",
+    "gender": "unknown",
+    "origin": "Unknow",
+    "image": "https://rickandmortyapi.com/api/character/avatar/95.jpeg",
+    "skills": ["fly:6", "resurrection:3", "magnetic control:2"],
+    "id": "5cabbc6210c90f711a490028"
+}, {
+    "name": "Tuberculosis",
+    "species": "Disease",
+    "gender": "unknown",
+    "origin": "Anatomy Park",
+    "image": "https://rickandmortyapi.com/api/character/avatar/96.jpeg",
+    "skills": ["Xray vision:9", "hight speed:1", "fly:3"],
+    "id": "5cabbc6210c90f711a490029"
+}, {
+    "name": "Princess Leia",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Polis Massa",
+    "image": "https://static.comicvine.com/uploads/scale_small/11126/111269625/6397592-star_wars_44_textless.jpg",
+    "skills": ["dexterity:7", "mental control:8", "hight speed:9"],
+    "id": "5cabbc6210c90f711a49002a"
+}, {
+    "name": "Gonorrhea",
+    "species": "Disease",
+    "gender": "unknown",
+    "origin": "Anatomy Park",
+    "image": "https://rickandmortyapi.com/api/character/avatar/97.jpeg",
+    "skills": ["invisibility:2", "hight strength:7", "dexterity:1"],
+    "id": "5cabbc6210c90f711a49002b"
+}, {
+    "name": "Hepatitis A",
+    "species": "Disease",
+    "gender": "unknown",
+    "origin": "Anatomy Park",
+    "image": "https://rickandmortyapi.com/api/character/avatar/98.jpeg",
+    "skills": ["invisibility:4", "pass through walls:8", "mental control:1"],
+    "id": "5cabbc6210c90f711a49002c"
+}, {
+    "name": "Harley Quinn",
+    "species": "Human",
+    "gender": "Female",
+    "origin": "Gotham City",
+    "image": "https://www.derivstore.com/wp-content/uploads/2017/11/Figurine-Hot-Toys-Harley-Quinn-3.jpg",
+    "skills": ["dexterity:5", "mental control:8", "hight speed:6"],
+    "id": "5cabbc6210c90f711a49002d"
+}, {
+    "name": "Hepatitis C",
+    "species": "Disease",
+    "gender": "unknown",
+    "origin": "Anatomy Park",
+    "image": "https://rickandmortyapi.com/api/character/avatar/99.jpeg",
+    "skills": ["hight speed:3", "invisibility:1", "magnetic control:8"],
+    "id": "5cabbc6210c90f711a49002e"
+}, {
+    "name": "Bubonic Plague",
+    "species": "Disease",
+    "gender": "unknown",
+    "origin": "Anatomy Park",
+    "image": "https://rickandmortyapi.com/api/character/avatar/100.jpeg",
+    "skills": ["fly:5", "magnetic control:1", "dexterity:3"],
+    "id": "5cabbc6210c90f711a49002f"
+}, {
+    "name": "Gandalf",
+    "species": "Maia",
+    "gender": "Male",
+    "origin": "Valinor",
+    "image": "https://static.comicvine.com/uploads/scale_small/13/132327/4262699-a86be31143ba35176665964cfa29516a-d5qg94n.jpg",
+    "skills": ["pass through walls:6", "Xray vision:3", "hight strength:8"],
+    "id": "5cabbc6210c90f711a490030"
+}, {
+    "name": "Wonder Woman",
+    "species": "Amazonian-Olympian",
+    "gender": "Female",
+    "origin": "Themyscira",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Wonder_Woman.jpg/250px-Wonder_Woman.jpg",
+    "skills": ["hight strength:4", "fly:5", "mental control:2"],
+    "id": "5cabbc6210c90f711a490031"
+}, {
+    "name": "Brian Cohen",
+    "species": "Human",
+    "gender": "Male",
+    "origin": "Jerusalem (near Jesus stable)",
+    "image": "https://klausming.files.wordpress.com/2011/09/brian.jpg",
+    "skills": ["pass through walls:1", "fly:6", "magnetic control:5"],
+    "id": "5cabbc6210c90f711a490032"
+}]

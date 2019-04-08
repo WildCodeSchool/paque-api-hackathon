@@ -17,7 +17,11 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "express-ws": "^4.0.0",
+    "faker": "^4.1.0",
     "lokijs": "^1.5.6",
     "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "bson-objectid": "^1.2.4"
   }
 }
