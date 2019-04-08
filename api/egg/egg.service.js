@@ -9,11 +9,11 @@ function update(id, fields) {
 }
 
 function get(id) {
-    return eggs().findOne({'id.$oid': id});
+    return eggs().findOne({'id': id});
 }
 
 function remove(id) {
-    return eggs().findAndRemove({'id.$oid': id})
+    return eggs().findAndRemove({'id': id})
 }
 
 function random() {

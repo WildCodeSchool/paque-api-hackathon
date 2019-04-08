@@ -18,7 +18,7 @@ scenarios:
             as: "eggs"
       - loop:
         - get:
-            url: "/eggs/{{ $loopElement.id.$oid }}"
+            url: "/eggs/{{ $loopElement.id }}"
         over: eggs
       - loop:
         - get:
@@ -32,7 +32,7 @@ scenarios:
             as: "characters"
       - loop:
         - get:
-            url: "/characters/{{ $loopElement.id.$oid }}"
+            url: "/characters/{{ $loopElement.id }}"
         over: characters
       - loop:
         - get:
