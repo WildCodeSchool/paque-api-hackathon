@@ -29,12 +29,8 @@ router.get('/random', function (req, res) {
 
 router.get('/:id', function (req, res) {
     const egg = service.get(req.params.id);
+    egg.validity = getValidity();
     
-    for (let i = 0; i < eggs.length; i++) {
-        const egg = eggs[i];
-        egg.validity = getValidity();
-    }
-
     if (egg) {
         res.status(200).json(egg);
     } else {

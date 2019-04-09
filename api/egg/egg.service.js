@@ -20,9 +20,9 @@ function random() {
     const size = eggs().count();
     const skip = randomIndex(1, size);
 
-    const character = eggs().chain().find({}).offset(skip).limit(1).data()[0];
+    const egg = eggs().chain().find({}).offset(skip).limit(1).data()[0];
 
-    return character;
+    return egg;
 }
 
 function getAll() {
