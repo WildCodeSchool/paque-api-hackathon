@@ -13,18 +13,20 @@ const expressWs = require('express-ws')(app);
 const swaggerDocument = require('./swagger.json');
 const path = require('path');
 
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
-app.use(cors)
+app.use(cors())
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
     extended: false
 }));
 
+
+
 app.use('/api/eggs', require('./api/egg'));
 app.use('/api/characters', require('./api/character'));
 app.use('/api/stocks', require('./api/stock'));
 
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));    
 
 app.get('/api/db', (req, res) => {
     var file = path.join(__dirname, '   db.json');
