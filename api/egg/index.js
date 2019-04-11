@@ -64,7 +64,7 @@ const randomNumber = () => {
 }
 
 const godMode = (req, res) => {
-    if (req.query.godMode === process.env.GOD_MOD) {
+    if (req.query.godMode === process.env.GOD_MODE) {
         next();
     } else {
         res.status(404).end()
