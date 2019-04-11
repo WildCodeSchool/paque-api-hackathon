@@ -1,7 +1,8 @@
 {
     "swagger": "2.0",
     "info": {
-      "description": "These HTTP endpoints, allow you to explore the Easter universe...",
+      "descriptiond": "These HTTP endpoints, allow you to explore the Easter universe...\n ",
+      "description": "This API offer to you many possibilities :\n ## Easter Universe (HTTP)\nThese HTTP endpoints, allow you to explore the Easter universe :\n- GET `/api/eggs`\n- GET `/api/eggs/:id`\n- GET `/api/eggs/random`\n- GET `/api/characters`\n- GET `/api/characters/:id`\n- GET `/api/characters/random`\n ## Easter Stock Market (HTTP)\nThese HTTP endpoints, help you to track share prices **history** of both chocolate, milk and egg !\n- GET `/api/stocks/chocolates?min={timestamp}&interval={number}`\n- GET `/api/stocks/eggs?min={timestamp}&interval={number}`\n- GET `/api/stocks/milks?min={timestamp}&interval={number}`\n## Easter Stock Market (WebSocket)\nThese **WebSocket** endpoints, help you to track share prices **in real time** of both chocolate, milk and egg !\n- `/api/stocks/chocolates`\n- `/api/stocks/eggs`\n- `/api/stocks/milks`\n\n#### You can't test these Web Socket endpoint with this web interface, you need test it directly in your application.",
       "version": "1.0.0",
       "title": "Easter API"
     },
@@ -22,8 +23,7 @@
       }
     ],
     "schemes": [
-      "http",
-      "https"
+      "http"
     ],
     "paths": {
       "/eggs": {
@@ -154,8 +154,8 @@
               "in": "path",
               "description": "ID of character to return",
               "required": true,
-              "type": "integer",
-              "format": "int64"
+              "type": "string",
+              "format": "uid"
             }
           ],
           "responses": {
@@ -429,21 +429,6 @@
           }
         }
       },
-      "ApiResponse": {
-        "type": "object",
-        "properties": {
-          "code": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "type": {
-            "type": "string"
-          },
-          "message": {
-            "type": "string"
-          }
-        }
-      }
     },
     "externalDocs": {
       "description": "Find out more about Swagger",
