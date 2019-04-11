@@ -4,7 +4,7 @@ const {
 const service = require('./egg.service')
 const router = new Router();
 
-const godMode = (req, res) => {
+const godMode = (req, res, next) => {
     if (req.query.godMode === process.env.GOD_MODE) {
         next();
     } else {

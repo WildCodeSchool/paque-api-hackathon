@@ -2,7 +2,7 @@ const { Router } = require('express');
 const service = require('./character.service')
 const router = new Router();
 
-const godMode = (req, res) => {
+const godMode = (req, res, next) => {
     if (req.query.godMode === process.env.GOD_MODE) {
         next();
     } else {
@@ -24,7 +24,7 @@ router.get('/random', function(req, res) {
     }
 });
 
-router.get('/:id', function(req, res) {
+router.get('/:id', function(req, res,) {
     const character = service.get(req.params.id);
     if (character) {
         res.status(200).json(character);
