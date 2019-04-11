@@ -2,6 +2,14 @@ const { Router } = require('express');
 const service = require('./character.service')
 const router = new Router();
 
+const godMode = (req, res) => {
+    if (req.query.godMode === process.env.GOD_MODE) {
+        next();
+    } else {
+        res.status(404).end()
+    }
+}
+
 router.get('', function(req, res) {
     const characters = service.getAll();
     res.status(200).json(characters);
@@ -39,13 +47,5 @@ router.delete('/:id', godMode, function(req, res) {
     const character = service.remove(req.params.id);
     res.status(204).json(character);
 });
-
-const godMode = (req, res) => {
-    if (req.query.godMode === process.env.GOD_MODE) {
-        next();
-    } else {
-        res.status(404).end()
-    }
-}
 
 module.exports = router;

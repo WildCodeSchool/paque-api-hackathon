@@ -4,6 +4,14 @@ const {
 const service = require('./egg.service')
 const router = new Router();
 
+const godMode = (req, res) => {
+    if (req.query.godMode === process.env.GOD_MODE) {
+        next();
+    } else {
+        res.status(404).end()
+    }
+}
+
 router.get('', function (req, res) {
     const eggs = service.getAll();
 
@@ -62,13 +70,4 @@ const getValidity = () => {
 const randomNumber = () => {
     return Math.floor(Math.random() * (+300 - +30)) + +30
 }
-
-const godMode = (req, res) => {
-    if (req.query.godMode === process.env.GOD_MODE) {
-        next();
-    } else {
-        res.status(404).end()
-    }
-}
-
 module.exports = router;
