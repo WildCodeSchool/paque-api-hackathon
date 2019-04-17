@@ -20,8 +20,6 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 
-
-
 app.use('/api/eggs', require('./api/egg'));
 app.use('/api/characters', require('./api/character'));
 app.use('/api/stocks', require('./api/stock'));
@@ -31,6 +29,14 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.get('/api/db', (req, res) => {
     var file = path.join(__dirname, '   db.json');
     res.download(file);
+});
+
+app.use('/api', (req, res) => {
+    res.redirect('/api-docs');
+});
+
+app.use('/', (req, res) => {
+    res.redirect('/api-docs');
 });
 
 async function start() {
