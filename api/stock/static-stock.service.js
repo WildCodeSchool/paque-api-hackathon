@@ -9,7 +9,7 @@ class StaticStock extends Stock {
     startAutoIncrement(interval) {
         const today = new Date().getTime();
         const data = [];
-        while(this.date.getTime() <= today && data.length < 50000) {
+        while(this.date.getTime() <= today && data.length < 5000) {
             const increment = this.increment();
             data.push(increment);
             this.date.setTime(this.date.getTime() + interval)
