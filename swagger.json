@@ -6,7 +6,7 @@
       "version": "1.0.0",
       "title": "Easter API"
     },
-    "host": "51.68.18.107",
+    "host": "easteregg.wildcodeschool.fr",
     "basePath": "/api",
     "tags": [
       {
@@ -428,7 +428,7 @@
             "description": "Number of trades at time T"
           }
         }
-      },
+      }
     },
     "externalDocs": {
       "description": "Find out more about Swagger",
