@@ -43,9 +43,17 @@ router.put('/:id', godMode, function(req, res) {
     res.status(200).json(character);
 });
 
+router.delete('/', godMode, function(req, res) {
+    service.removeAll();
+    console.log('removeAll');
+    res.status(204).end();
+});
+
 router.delete('/:id', godMode, function(req, res) {
     const character = service.remove(req.params.id);
     res.status(204).json(character);
 });
+
+
 
 module.exports = router;

@@ -16,6 +16,10 @@ function remove(id) {
     return characters().findAndRemove({'id': id})
 }
 
+function removeAll(id) {
+    return characters().findAndRemove({})
+}
+
 function random() {
     const size = characters().count();
     const skip = randomIndex(1, size);
@@ -35,4 +39,4 @@ function randomIndex(min, max) {
     return value
 }
 
-module.exports = { save, get, getAll, update, remove, random}
+module.exports = { save, get, getAll, update, remove, random, removeAll}
