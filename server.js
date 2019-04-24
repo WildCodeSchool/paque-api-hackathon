@@ -1,4 +1,5 @@
-const app = require('express')();
+const express = require('express');
+const app = express();
 const bodyParser = require('body-parser');
 const log = require('./configuration/logger');
 const {
@@ -12,7 +13,8 @@ const swaggerUi = require('swagger-ui-express');
 const expressWs = require('express-ws')(app);
 const swaggerDocument = require('./swagger.json');
 const path = require('path');
-
+var https = require('https');
+var http = require('http');
 
 app.use(cors())
 app.use(bodyParser.json());
@@ -31,6 +33,8 @@ app.get('/api/db', (req, res) => {
     res.download(file);
 });
 
+app.use('/.well-known', express.static('.well-known', { dotfiles: 'allow' }));
+
 app.use('/api', (req, res) => {
     res.redirect('/api-docs');
 });
@@ -43,8 +47,12 @@ async function start() {
     try {
         databaseInitialize();
         // Start the server
-        app.listen(process.env.PORT || NODE_PORT, () => {
+        http.createServer(app).listen(process.env.PORT || NODE_PORT,() => {
             log.debug(`Your server is listening on port ${process.env.PORT || NODE_PORT}`);
+        });
+
+        https.createServer(app).listen(443, () => {
+            log.debug(`Your server is listening on port 443`);
         });
     } catch (err) {
         log.error('while starting server', err);
