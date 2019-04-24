@@ -37,13 +37,13 @@ app.get('/api/db', (req, res) => {
 
 app.use('/.well-known', express.static('.well-known', { dotfiles: 'allow' }));
 
-/* app.use('/api', (req, res) => {
+app.use('/api', (req, res) => {
     res.redirect('/api-docs');
 });
 
 app.use('/', (req, res) => {
     res.redirect('/api-docs');
-}); */
+});
 
 async function start() {
     try {
